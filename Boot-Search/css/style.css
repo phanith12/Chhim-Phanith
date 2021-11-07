@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(/img/bussiness1.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-menu{
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+}
+.menu ul li:hover{
+    background: rgb(138, 138, 138);
+}
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: red;
+    
+} 
+.logo img{
+    width: 70px;
+}
+.right-menu{
+    display: flex;
+}
+.form{
+    display: flex;
+    margin-right: 40px;
+}
+.icon1{
+    color:rgb(210, 221, 54);
+    font-size: 2rem;
+    border: none;
+}
+.icon2{
+    color:rgb(210, 221, 54);
+    font-size: 2rem;
+    border: none;
+    margin-right: 20px;
+}
+.container p{
+    text-align: center;
+    margin-top: 40px;
+    width: 300px;
+    margin-left:400px ;
+    color: rgb(7, 38, 216);
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    color: blueviolet;
+}
+.btn{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.btn button{
+    border: none;
+    background: rgb(120, 35, 201);
+    width: 90px;
+    color: white;
+    
+}
+.btn button:hover{
+    background: violet;
+}
+@media(max-width:890px){
+    nav{
+        width: 90%;
+    }
+}
+@media(max-width:640px){
+    nav{
+        width: 50%;
+    }
+}
